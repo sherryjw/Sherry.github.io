@@ -40,12 +40,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 网站小图标，可换成你自己的图片，改href中的部分即可
         <link
           rel="apple-touch-icon-precomposed"
-          href="https://c-ssl.duitang.com/uploads/item/201901/20/20190120125859_dhjwk.thumb.700_0.jpeg"
+          href="https://s.gravatar.com/avatar/5c4f05066a5f00065adcb13e8deee144?s=80"
         />
         <link
           rel="shortcut
           icon"
-          href="https://c-ssl.duitang.com/uploads/item/201901/20/20190120125859_dhjwk.thumb.700_0.jpeg"
+          href="https://s.gravatar.com/avatar/5c4f05066a5f00065adcb13e8deee144?s=80"
         />
       - | # 来自lanyon的页面样式，不要改
         <link
