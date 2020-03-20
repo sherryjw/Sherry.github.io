@@ -9,9 +9,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://github.com/sherryjw">
     <i class="fab fa-github"></i>
   </a>
-  # <a href="https://vjudge.net/user/WuK">
-  #   <i class="fas fa-smile"></i>
-  # </a>
 url: https://sherryjw.github.io # 你的域名，例如https://wu-kan.github.io
 baseurl: "Sherry.github.io" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
