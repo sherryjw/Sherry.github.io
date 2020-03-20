@@ -164,31 +164,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
           href: /archive/
-      simple_jekyll_search: # 侧边栏的全站搜索
-        enable: true
-        full_text_search: false # 可能导致缓慢的搜索和加载
-        alert: | # 如果看不懂就不改
-          <input
-            id="sidebar-search-input"
-            placeholder="搜索博文"
-            style="background: none;border: none;color: #000;width: 100%;outline: none;"/>
-          <ol
-            id="sidebar-search-results-container"
-            style="overflow: auto auto;max-height:50vh;"
-          ></ol>
-          <script
-            src='https://cdn.jsdelivr.net/npm/simple-jekyll-search/dest/simple-jekyll-search.min.js'
-            async='async'
-            onload='
-              SimpleJekyllSearch({
-                json: "/assets/simple-jekyll-search/search.json",
-                searchInput: document.getElementById("sidebar-search-input"),
-                resultsContainer: document.getElementById("sidebar-search-results-container"),
-                searchResultTemplate: `<li><a href="{url}">{title}</a></li>`,
-                limit: 999,
-                fuzzy: true
-              })'
-          ></script>
       append_to_sidebar:
         - | # 目录插件，如果看不懂就不改
           <aside style="overflow: auto auto;max-height:50vh;" id="toc">
