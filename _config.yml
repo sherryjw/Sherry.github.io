@@ -108,7 +108,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         <style>
           .effect {
             margin: 1rem;
-            perspective: 960px;
+            perspective: 900px;
           }
           .effect-info {
             text-align: center;
