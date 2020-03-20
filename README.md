@@ -1,10 +1,4 @@
-# 星合の空
-
-欢迎访问我的个人主页！下面向你介绍一下我自己吧~
-
-<!-- slide -->
-
-## 我的一些文字
+#### 我的一些文字
 
 - [基于 Jekyll 搭建个人博客](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
 - [我的算法竞赛模板](https://wu-kan.cn/_posts/2019-02-04-%E6%88%91%E7%9A%84%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%A8%A1%E6%9D%BF/)
