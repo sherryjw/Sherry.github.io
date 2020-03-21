@@ -212,7 +212,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "03/03/2020 13:14:52") // 这是我第一篇CSDN博客的时间
+              }, 1000, "03/21/2020 13:14:52") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -454,7 +454,7 @@ remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@3.1.0 #使用固定版�
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
-permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
+permalink: /Sherry.github.io/_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
 # future: false # 不发布时间在未来的文章
 
