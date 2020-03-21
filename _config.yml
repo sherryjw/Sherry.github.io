@@ -251,7 +251,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             async='async'
             onload='
               SimpleJekyllSearch({
-                json: "/assets/simple-jekyll-search/search.json",
+                json: "/Sherry.github.io/assets/simple-jekyll-search/search.json",
                 searchInput: document.getElementById("sidebar-search-input"),
                 resultsContainer: document.getElementById("sidebar-search-results-container"),
                 searchResultTemplate: `<li><a href="{url}">{title}</a></li>`,
