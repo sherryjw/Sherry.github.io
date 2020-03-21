@@ -203,7 +203,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 e_minsold = (e_hrsold - hrsold) * 60;
                 minsold = Math.floor((e_hrsold - hrsold) * 60);
                 seconds = Math.floor((e_minsold - minsold) * 60);
-                document.getElementById("run_time_day").innerHTML = daysold;
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
