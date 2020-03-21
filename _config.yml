@@ -1,21 +1,40 @@
-title: 粒子 # 站点标题
+title: wu-kan # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  <br/><br/>SYSU-18级在读<br/>
-  乐于称呼自己为粒子君<br/>
-  英文名->SHERRY<br/>
-  <a href="mailto:1024992493@qq.com">
+  SYSU超算17级在读<br/>
+  永远喜欢水野爱<br/>
+  田宫例四驱车<br/>
+  ASC<br/>
+  <a href="mailto:i@wu-kan.cn">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/sherryjw">
+  <a href="https://github.com/wu-kan">
     <i class="fab fa-github"></i>
   </a>
-url: https://sherryjw.github.io # 你的域名，例如https://wu-kan.github.io
-baseurl: "/Sherry.github.io" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
+  <a href="https://codeforces.com/profile/WuK">
+    <i class="fas fa-chart-bar"></i>
+  </a>
+  <a href="https://vjudge.net/user/WuK">
+    <i class="fas fa-smile"></i>
+  </a>
+  <a href="https://www.zhihu.com/people/wu.kan/activities">
+    <i class="fab fa-zhihu"></i>
+  </a>
+  <iframe
+    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
+    width=100%
+    height=52
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+  ></iframe>
+url: https://wu-kan.cn # 你的域名，例如https://wu-kan.github.io
+baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   default:
     body:
-      theme-base: theme-base-09 # 可选的值08~0f，见<https://github.com/poole/lanyon>
+      theme-base: theme-base-07 # 可选的值08~0f，见<https://github.com/poole/lanyon>
       layout-reverse: false # 开启后sidebar在右边，反之左边
       sidebar-overlay: false # 开启后正文不随sidebar移动而移动
     append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章<https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
@@ -37,12 +56,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 网站小图标，可换成你自己的图片，改href中的部分即可
         <link
           rel="apple-touch-icon-precomposed"
-          href="https://s.gravatar.com/avatar/5c4f05066a5f00065adcb13e8deee144?s=80"
+          href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
         />
         <link
           rel="shortcut
           icon"
-          href="https://s.gravatar.com/avatar/5c4f05066a5f00065adcb13e8deee144?s=80"
+          href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
         />
       - | # 来自lanyon的页面样式，不要改
         <link
@@ -69,6 +88,74 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"
         />
+      - | # 引入live2d看板娘！不需要可以把这一项都删掉
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
+        />
+        <script
+          async="async"
+          src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
+          onload='
+            if (screen.width > screen.height)
+            {
+              let pio_container = document.createElement("div");
+              pio_container.classList.add("pio-container");
+              pio_container.classList.add("right");
+              pio_container.style.bottom = "-2rem";
+              pio_container.style.zIndex = "1";
+              document.body.insertAdjacentElement("beforeend", pio_container);
+              let pio_action = document.createElement("div");
+              pio_action.classList.add("pio-action");
+              pio_container.insertAdjacentElement("beforeend", pio_action);
+              let pio_canvas = document.createElement("canvas");
+              pio_canvas.id = "pio";
+              pio_canvas.style.width = "14rem";
+              pio_canvas.width = "600";
+              pio_canvas.height = "800";
+              pio_container.insertAdjacentElement("beforeend", pio_canvas);
+              let pio = new Paul_Pio({
+                "mode": "fixed",
+                "hidden": true,
+                "content": {
+                  "link": ["https://jekyll-theme-WuK.wu-kan.cn"],
+                  "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
+                  "custom": [{
+                    "selector": "a",
+                    "type": "link",
+                  }, {
+                    "selector": ".sidebar-toggle",
+                    "text": "打开侧边栏叭~"
+                  }, {
+                    "selector": ".effect-info",
+                    "text": "哇，你发现了什么！"
+                  }, {
+                    "selector": "#sidebar-search-input",
+                    "text": "想搜索什么呢？很多干货哦！"
+                  }, {
+                    "selector": "#toc",
+                    "text": "这是目录~"
+                  }, {
+                    "selector": ".page-title",
+                    "text": "这是标题~"
+                  }, {
+                    "selector": ".v",
+                    "text": "评论没有审核，要对自己的发言负责哦~"
+                  }]
+                },
+                "model": [
+                  "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/mashiro/seifuku.model.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/seele/model.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/Violet/14.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
+                  "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
+              });
+            }'
+        ></script>
       - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
         <script
           src='https://zz.bdstatic.com/linksubmit/push.js'
@@ -83,11 +170,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(/Sherry.github.io/assets/image/background03.jpg);
+            background-image: url(https://wu-kan.cn/MizunoAi/pixiv/74559485_p1.webp);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(/Sherry.github.io/assets/image/background03.jpg);
+              background-image: url(https://wu-kan.cn/MizunoAi/pixiv/71932901_p0.webp);
             }
           }
         </style>
@@ -156,18 +243,47 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       disable: false # 是否不显示sidebar
       avatar: # 侧边栏显示的头像
         enable: true
-        img: /Sherry.github.io/assets/image/Charlie2.jpeg # 头像的地址
+        img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
-          href: /Sherry.github.io/
+          href: /
+        - title: '<i class="fas fa-comments fa-fw"></i> 留言'
+          href: /comments/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
-          href: /Sherry.github.io/tags/
+          href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
-          href: /Sherry.github.io/archive/
+          href: /archive/
+        - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+          href: /merger/
+      simple_jekyll_search: # 侧边栏的全站搜索
+        enable: true
+        full_text_search: false # 可能导致缓慢的搜索和加载
+        alert: | # 如果看不懂就不改
+          <input
+            id="sidebar-search-input"
+            placeholder="搜索博文"
+            style="background: none;border: none;color: #fff;width: 100%;"/>
+          <ol
+            id="sidebar-search-results-container"
+            style="overflow: auto auto;max-height:50vh;"
+          ></ol>
+          <script
+            src='https://cdn.jsdelivr.net/npm/simple-jekyll-search/dest/simple-jekyll-search.min.js'
+            async='async'
+            onload='
+              SimpleJekyllSearch({
+                json: "/assets/simple-jekyll-search/search.json",
+                searchInput: document.getElementById("sidebar-search-input"),
+                resultsContainer: document.getElementById("sidebar-search-results-container"),
+                searchResultTemplate: `<li><a href="{url}">{title}</a></li>`,
+                limit: 999,
+                fuzzy: true
+              })'
+          ></script>
       append_to_sidebar:
         - | # 目录插件，如果看不懂就不改
           <aside style="overflow: auto auto;max-height:50vh;" id="toc">
-            
+            目录
           </aside>
           <script
             defer='defer'
@@ -212,7 +328,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "03/03/2020 13:14:52") // 这是我第一篇CSDN博客的时间
+              }, 1000, "10/04/2017 11:03:56") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -243,13 +359,13 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         - | # Copyright声明
           <div>
             <i class="fas fa-copyright fa-fw"></i>
-            2018-2020 SherryJW
+            2017-2020 WuK
           </div>
-        - | # 特别鸣谢 —— Wu Kan
+        - | # 觉得我的主题好用的话，让更多的人知道它吧！
           <div>
             <i class="fas fa-thumbs-up fa-fw"></i>
             <a href="https://jekyll-theme-WuK.wu-kan.cn">
-              特别鸣谢 —— Wu Kan
+              jekyll-theme-WuK
             </a>
           </div>
       wordcount: # 全站字数统计
@@ -353,6 +469,29 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               return button;
             })'
         ></script>
+  comments: # 留言页
+    alert: | # 配置评论区，appId和appKey需要换成你自己的，见<https://valine.js.org/configuration.html>
+      <div class="v">
+        <i class="fas fa-spinner fa-pulse"></i>
+      </div>
+      <script
+        src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'
+        defer='defer'
+        onload='
+          new Valine({
+            "el": ".v",
+            "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
+            "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+            "notify": "true",
+            "verify": "true",
+            "avatar": "identicon",
+            "placeholder": "在这里评论吧！",
+            "visitor": true,
+            "highlight": true,
+            "avatarForce": false,
+            "recordIP": true
+          })'
+      ></script>
   post:
     date: # 显示博文时间
       enable: true
@@ -376,7 +515,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     copyright: | # 我的文章使用最宽松的知识共享协议：署名 4.0 国际 (CC BY 4.0)。您可以自由地：共享 — 在任何媒介以任何形式复制、发行本作品；演绎 — 修改、转换或以本作品为基础进行创作；在任何用途下，甚至商业目的。只要你遵守许可协议条款，许可人就无法收回你的这些权利。惟须遵守下列条件：署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
       <br/>
       <i class="fas fa-coffee fa-fw"></i>
-      <a href="/merger/">希望这篇博客能够帮助到你！</a>
+      <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
       <br/>
       <i class="fab fa-creative-commons-by fa-fw"></i>
       <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC BY 4.0</a>（除特别声明或转载文章外）
@@ -387,6 +526,46 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     posts_count:
       enable: true # 博文数量统计
       alert: 篇博文。长路漫漫！ # 提示语
+  merger: # 打赏页，需要配置！
+    append_to_head:
+      - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
+        <script>
+          var usage = "payment";
+          var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
+          var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
+          var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
+          var paypal = "https://paypal.me/wukan0621";
+          var myname = "WuK";
+          var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
+          var multilingual = true;
+          var myname_hans = "吴坎";
+          var myname_hant = "吴坎";
+          var myname_eng = "WuK";
+          var title = "选择你的支付方式";
+          var subtitle = "跟随进一步的指示以向" + myname + "付款";
+          var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+        </script>
+      - |
+        <meta
+          charset="utf-8"
+        />
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
+      - | # merger的页面样式
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
+        />
+        <script
+          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
+          defer='defer'
+        ></script>
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
@@ -436,10 +615,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
           async='async'
           charset='utf-8'
-          homePageUrl='/Sherry.github.io/'
+          homePageUrl='/'
           homePageName='回到我的主页'
         ></script>
-
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
@@ -454,7 +632,7 @@ remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@3.1.0 #使用固定版�
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
-permalink: /Sherry.github.io/_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
+permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
 # future: false # 不发布时间在未来的文章
 
