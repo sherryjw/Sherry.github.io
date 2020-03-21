@@ -436,7 +436,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
           async='async'
           charset='utf-8'
-          homePageUrl='/'
+          homePageUrl='/Sherry.github.io/'
           homePageName='回到我的主页'
         ></script>
 
