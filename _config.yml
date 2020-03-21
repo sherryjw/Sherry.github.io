@@ -10,7 +10,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-github"></i>
   </a>
 url: https://sherryjw.github.io # 你的域名，例如https://wu-kan.github.io
-baseurl: "/Sherry.github.io" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
+baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   default:
@@ -159,15 +159,15 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         img: /Sherry.github.io/assets/image/Charlie2.jpeg # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
-          href: /Sherry.github.io/
+          href: /
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
-          href: /Sherry.github.io/tags/
+          href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
-          href: /Sherry.github.io/archive/
+          href: /archive/
       append_to_sidebar:
         - | # 目录插件，如果看不懂就不改
           <aside style="overflow: auto auto;max-height:50vh;" id="toc">
-            
+            目录
           </aside>
           <script
             defer='defer'
@@ -436,7 +436,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
           async='async'
           charset='utf-8'
-          homePageUrl='/Sherry.github.io/'
+          homePageUrl='/'
           homePageName='回到我的主页'
         ></script>
 
@@ -454,7 +454,7 @@ remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@3.1.0 #使用固定版�
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
-permalink: /Sherry.github.io/_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
+permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
 # future: false # 不发布时间在未来的文章
 
