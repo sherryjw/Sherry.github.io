@@ -159,11 +159,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         img: /Sherry.github.io/assets/image/Charlie2.jpeg # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
-          href: /
+          href: /Sherry.github.io/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
-          href: /tags/
+          href: /Sherry.github.io/tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
-          href: /archive/
+          href: /Sherry.github.io/archive/
       append_to_sidebar:
         - | # 目录插件，如果看不懂就不改
           <aside style="overflow: auto auto;max-height:50vh;" id="toc">
