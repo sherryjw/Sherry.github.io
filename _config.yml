@@ -547,16 +547,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           ]
           });
         "></script>
-  page404:
-    append_before:
-      - | # 腾讯公益
-        <script
-          src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
-          async='async'
-          charset='utf-8'
-          homePageUrl='/Sherry.github.io/'
-          homePageName='回到我的主页'
-        ></script>
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
