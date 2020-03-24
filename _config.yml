@@ -101,7 +101,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           h5,
           h6,
           .sidebar {
-            font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
+            font-family: Menlo, Monaco, "Courier New", Microsoft Sans Serif, monospace;
           }
         </style>
       - | # 侧边栏头像效果
