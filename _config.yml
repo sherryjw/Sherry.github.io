@@ -333,25 +333,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             for(let x=document.getElementsByTagName("pre"), i=0;i<x.length;i++)
             {
               x[i].classList.add("line-numbers");
-            }
-            Prism.plugins.toolbar.registerButton("select-code", function (env) {
-              let button = document.createElement("button");
-              button.innerHTML = "select this " + env.language;
-              button.addEventListener("click", function () {
-                if (document.body.createTextRange) {
-                  let range = document.body.createTextRange();
-                  range.moveToElementText(env.element);
-                  range.select();
-                } else if (window.getSelection) {
-                  let selection = window.getSelection();
-                  let range = document.createRange();
-                  range.selectNodeContents(env.element);
-                  selection.removeAllRanges();
-                    selection.addRange(range);
-                }
-              });
-              return button;
-            })'
+            }'
         ></script>
   post:
     date: # 显示博文时间
