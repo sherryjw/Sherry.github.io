@@ -323,10 +323,10 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # prism代码高亮
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/combine/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.css,npm/prismjs/plugins/toolbar/prism-toolbar.min.css,gh/PrismJS/prism-themes@1955cfef6953b3a59e66016e8a1e016b45d6cc79/themes/prism-nord.css"
+          href="https://cdn.jsdelivr.net/gh/sherryjw/StaticResource@v1.0.0/prism/prism.css"
         />
         <script
-          src="https://cdn.jsdelivr.net/combine/npm/prismjs/components/prism-core.min.js,npm/prismjs/plugins/autoloader/prism-autoloader.min.js,npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js,npm/prismjs/plugins/toolbar/prism-toolbar.min.js"
+          src="https://cdn.jsdelivr.net/gh/sherryjw/StaticResource@v1.0.0/prism/prism.js"
           defer="defer"
           onload='
             Prism.plugins.autoloader.languages_path = "https:\/\/cdn.jsdelivr.net/npm/prismjs/components/";
