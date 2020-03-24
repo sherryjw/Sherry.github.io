@@ -1,4 +1,4 @@
-## 啤酒屋:wine_glass::beer::beers:
+## 啤酒屋 :beers:
 
 <!-- slide vertical=true -->
 
