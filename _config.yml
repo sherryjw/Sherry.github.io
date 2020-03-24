@@ -396,7 +396,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           hash: true,
           mouseWheel: true,
           navigationMode: 'linear',
-
           dependencies: [
               { src: path+'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
               { src: path+'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
