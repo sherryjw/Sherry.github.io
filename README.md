@@ -5,5 +5,5 @@
 ### **一些文字**
 <br/>
 
-- [Markdown 写作心得](https://wu-kan.cn/_posts/2020-01-18-Markdown%E5%86%99%E4%BD%9C%E5%BF%83%E5%BE%97/)
-- [今日此时所想之事](http://wu-kan.cn/_posts/2020-01-24-%E4%BB%8A%E6%97%A5%E6%AD%A4%E6%97%B6%E6%89%80%E6%83%B3%E4%B9%8B%E4%BA%8B/)
+- [初创博客](https://sherryjw.github.io/_posts/2020-03-21-%E5%88%9D/)
+- [贪心法（一）](https://sherryjw.github.io/_posts/2020-03-22-%E8%B4%AA%E5%BF%83%E6%B3%95-%E4%B8%80/)
