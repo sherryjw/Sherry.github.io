@@ -1,4 +1,4 @@
-## 啤酒屋<i class="fa fa-beer" aria-hidden="true"></i>
+## 啤酒屋:wine_glass::beer::beers:
 
 <!-- slide vertical=true -->
 
