@@ -83,11 +83,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/image/princess2.png);
+            background-image: url(https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/image/background03.jpg);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/image/princess2.png);
+              background-image: url(https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/image/background03.jpg);
             }
           }
         </style>
@@ -396,7 +396,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           hash: true,
           mouseWheel: true,
           navigationMode: 'linear',
-          parallaxBackgroundImage: 'https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/image/grid.png',//这是一张纯白图
+          parallaxBackgroundImage: 'https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/image/snow3.png',//这是一张纯白图
           dependencies: [
               { src: path+'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
               { src: path+'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
