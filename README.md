@@ -1,8 +1,8 @@
-## 啤酒屋 🍻
+# 啤酒屋 🍻
 
 <!-- slide vertical=true -->
 
-### **一些文字**
+## **一些文字**
 <br/>
 
 - [当我决定向你走来...](https://sherryjw.github.io/_posts/2020-03-21-%E5%88%9D/)
