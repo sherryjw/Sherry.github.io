@@ -154,6 +154,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             display: inline-block;
             margin: 0;
           }
+          .post{
+            margin: 0.35cm 0.8cm;
+          }
           .post-date{
             margin-top: 2px;
           }
