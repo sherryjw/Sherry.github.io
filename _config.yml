@@ -414,7 +414,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   archive:
     posts_count:
       enable: true # 博文数量统计
-      alert: 篇博文。长路漫漫！ # 提示语
+      alert: 篇博文✒️ # 提示语
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
