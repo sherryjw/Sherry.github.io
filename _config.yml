@@ -96,8 +96,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               width: 350,
               height: 400,
               position: 'right',
-              hOffset: 0,
-              vOffset: 0,
+              hOffset: -60,
+              vOffset: -30,
             },
             mobile: {
               show: true,
