@@ -4,13 +4,21 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   乐于称呼自己为粒子君<br/>
   英文名->SHERRY<br/>
   欢迎来踩呀🐾<br/>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=31861807&auto=1&height=32"></iframe>
   <a href="mailto:1024992493@qq.com">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="https://github.com/sherryjw">
     <i class="fab fa-github"></i>
   </a>
+  <iframe 
+    src="//music.163.com/outchain/player?type=2&id=31861807&auto=1&height=32"
+    width=100% 
+    height=52 
+    frameborder="no" 
+    border="0" 
+    marginwidth="0" 
+    marginheight="0" 
+  ></iframe>
 url: https://sherryjw.github.io # 你的域名，例如https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
