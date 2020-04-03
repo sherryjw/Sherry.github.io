@@ -79,10 +79,10 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"
         />
       - | # 引入live2d猫咪
-        <script src="https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/live2DModel/l2dwidget.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/sherryjw/StaticResource@v1.0.4/live2DModel/l2dwidget.min.js"></script>
         <script>
-          var tororo = 'https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/live2DModel/tororo/assets/tororo.model.json';
-          var hijiki = 'https://cdn.jsdelivr.net/gh/sherryjw/StaticResource/live2DModel/hijiki/assets/hijiki.model.json';
+          var tororo = 'https://cdn.jsdelivr.net/gh/sherryjw/StaticResource@v1.0.4/live2DModel/tororo/assets/tororo.model.json';
+          var hijiki = 'https://cdn.jsdelivr.net/gh/sherryjw/StaticResource@v1.0.4/live2DModel/hijiki/assets/hijiki.model.json';
 
           function show(path) {
             config.model.jsonPath = path;
